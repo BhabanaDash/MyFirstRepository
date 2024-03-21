@@ -19,6 +19,9 @@ public class ForEach {
 		numbers.add(6);
 		numbers.add(8);
 		numbers.add(4);
+                numbers.add(77);
+		numbers.add(66);
+		numbers.add(33);
 		Consumer<Integer> method=(n) -> {System.out.println(n);};
 		numbers.forEach(method);;
 	
